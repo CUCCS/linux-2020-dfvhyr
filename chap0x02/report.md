@@ -1,13 +1,13 @@
-#实验目标
+# 实验目标
 了解vim的功能及相关操作
 
-#实验环境
+# 实验环境
 Ubuntu-18.04.4-server
 
-#vimtutor操作全程录像
+# vimtutor操作全程录像
 https://asciinema.org/a/lxYwM542UxzORHtX5HXyagJiI
 
-#自查清单
+# 自查清单
 *   你了解vim有哪几种工作模式？
     ***一般模式、编辑模式和命令行模式***
 
