@@ -42,7 +42,7 @@ Ubuntu-18.04.4-server
     3.  删除逻辑卷，卷组：lvremove /dev/vg1/lv1、vgremove /dev/vg1
 
 *   如何通过systemd设置实现在网络连通时运行一个指定脚本，在网络 断开时运行另一个脚本？
-    在a.server中的Unit区块里设置：After=network.target，在b.server中设置Before=network.target，使有网时运行a，没网时运行b
+    *   在a.server中的Unit区块里设置：After=network.target，在b.server中设置Before=network.target，使有网时运行a，没网时运行b
 
 *   如何通过systemd设置实现一个脚本在任何情况下被杀死之后会立即重新启动？实现杀不死？
-    在Service区块里设置：Restart=always、RestartSec=1
+    *   在Service区块里设置：Restart=always、RestartSec=1
