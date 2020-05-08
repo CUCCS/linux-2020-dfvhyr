@@ -34,14 +34,3 @@
 | Faryd Mondragon | Fabrice Olinga |
 |                 |   Luke Shaw    |
 |42               |18              |
-
-## Web服务器访问日志
-
-- 统计访问来源主机TOP 100和分别对应出现的总次数
-- 统计访问来源主机TOP 100 IP和分别对应出现的总次数
-- 统计最频繁被访问的URL TOP 100
-- 统计不同响应状态码的出现次数和对应百分比
-- 分别统计不同4XX状态码对应的TOP 10 URL和对应出现的总次数
-- 给定URL输出TOP 100访问来源主机
-
-##### 数据见web_log_data.txt
