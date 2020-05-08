@@ -15,20 +15,20 @@ Ubuntu-18.04.4-server
 - [x] 支持对指定目录下所有支持格式的图片文件进行批处理指定目录进行批处理
 - [x] 支持以下常见图片批处理功能的单独使用或组合使用
   - [x] 支持对jpeg格式图片进行图片质量压缩
-  `bash img.sh -d picture -q 75`
+    `bash img.sh -d picture -q 75`
   - [x] 支持对jpeg/png/svg格式图片在保持原始宽高比的前提下压缩分辨率
-  `bash img.sh -d picture -r 60%x60%`
+    `bash img.sh -d picture -r 60%x60%`
   - [x] 支持对图片批量添加自定义文本水印
-  `bash img.sh -d picture -w "this is my watermark"`
-  ![](img/watermark.jpg)
+    `bash img.sh -d picture -w "this is my watermark"`
+    ![](img/watermark.jpg)
   - [x] 支持批量重命名（统一添加文件名前缀或后缀，不影响原始文件扩展名）
-  `bash img.sh -d picture --prefix "before"`
-  ![](img\a.jpg)
-  `bash img.sh -d picture --postfix "after"`
-  ![](img\b.jpg)
+    `bash img.sh -d picture --prefix "before"`
+    ![](img/a.jpg)
+    `bash img.sh -d picture --postfix "after"`
+    ![](img/b.jpg)
   - [x] 支持将png/svg图片统一转换为jpg格式
-  `bash img.sh -d picture -c`
-  ![](img\c.jpg)
+    `bash img.sh -d picture -c`
+    ![](img/c.jpg)
   
 #### 具体代码请见：[任务一](Img.sh)
 
