@@ -4,8 +4,11 @@
 # 实验环境
 
 Ubuntu-18.04
+
 putty
+
 psftp
+
 Windows10主机
 
 ---
@@ -50,7 +53,7 @@ sudo python3 install.py install
 #### 成功启动verynginx
 ![](img/5.jpg)
 
-![](im/12.jpg)
+![](img/12.jpg)
 
 
 ## 安装mysql
